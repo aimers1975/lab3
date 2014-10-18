@@ -6,7 +6,7 @@ def largest(mylist):
         raise ValueError("Cannot call largest on empty list")
     # max = -sys.maxint # "smallest" possible int
     thismax = 0
-    for index in range(len(mylist)-1):
+    for index in range(len(mylist)):
         if mylist[index] > thismax:
             thismax = mylist[index]
     return thismax
