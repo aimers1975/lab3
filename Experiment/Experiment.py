@@ -1,5 +1,4 @@
 """This is the largest function"""
-
 def largest(mylist):
     """This checks for largest in a list, returns ValueError on empty list"""
     if len(mylist) == 0:
